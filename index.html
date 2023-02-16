@@ -6,10 +6,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard</title>
   <link rel="stylesheet" href="./styles/index.css">
+  <script src="https://kit.fontawesome.com/a8280392d4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+  <main>
+    <section id="sectionForm">
+      <h1>Productos</h1>
+      <form action="">
+        <input id="inProduct" type="text" placeholder="producto">
+        <input id="inStock" type="number" placeholder="Existencias">
+        <input id="inPrice" type="number" placeholder="precio">
+        <input id="inStatus" type="number" placeholder="Status">
+        <button id="btnAddUpdate">Agregar</button>
+      </form>
+    </section>
 
+    <section id="sectionTable">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th>Producto</th>
+            <th>Existencias</th>
+            <th>Precio</th>
+            <th>status</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyProducts">
+          
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="./models/Product.js"></script>
+  <script src="./controllers/products.js"></script>
   <script src="./js/index.js"></script>
 </body>
 </html>
