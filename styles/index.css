@@ -18,13 +18,14 @@ main {
 
 #sectionForm {
   /* background-color: #18122B; */
-  color: #18122B;
+  color: #635985;
 }
 
 #sectionForm h1{
   text-align: center;
   margin-top: 20px;
   font-size: 30px;
+  font-family: 'Kalam', cursive;
 }
 
 #sectionForm > form {
